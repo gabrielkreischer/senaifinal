@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "961999580554",
+    "firebase_url": "https://senai-projeto-final.firebaseio.com",
+    "project_id": "senai-projeto-final",
+    "storage_bucket": "senai-projeto-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961999580554:android:39c822b4283c15db4eac73",
+        "android_client_info": {
+          "package_name": "com.gabrielkreischer.senaifinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961999580554-h8p3mkb4339n6glr70gldrr0l5o15tt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gabrielkreischer.senaifinal",
+            "certificate_hash": "3347956b9062979d2a673f13b9d153d8566bffc4"
+          }
+        },
+        {
+          "client_id": "961999580554-221s8oi06kv38cva0v2m8ovrbf0rual4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHvq9h92L2sagZC-HjU3SDjrIIpm9jD_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961999580554-221s8oi06kv38cva0v2m8ovrbf0rual4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
