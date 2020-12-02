@@ -15,9 +15,11 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class CadastroActivity extends AppCompatActivity {
 
+    //Declara as variaveis
     private EditText nome, email, senha;
     private Button btnCadastrar;
     private ProgressBar progressBar;
+    //Declaração de objeto
     private Usuario usuario;
 
     // autenticação do firebase
@@ -40,13 +42,13 @@ public class CadastroActivity extends AppCompatActivity {
                 String textoSenha = senha.getText().toString();
 
                 if(!textoNome.isEmpty()){
-                    if(!textoNome.isEmpty()){
-                        if(!textoNome.isEmpty()){
+                    if(!textoEmail.isEmpty()){
+                        if(!textoSenha.isEmpty()){
 
                             usuario = new Usuario();
                             usuario.setNome(textoNome);
-                            usuario.setEmail(textoNome);
-                            usuario.setSenha(textoNome);
+                            usuario.setEmail(textoEmail);
+                            usuario.setSenha(textoSenha);
                             cadastrarUsuario(usuario);
 
                         }else{
@@ -74,8 +76,6 @@ public class CadastroActivity extends AppCompatActivity {
         nome = findViewById(R.id.edTxtSenha);
         btnCadastrar = findViewById(R.id.btnLogar);
         progressBar = findViewById(R.id.progressBar);
-
-
 
     }
 }

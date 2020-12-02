@@ -8,6 +8,7 @@ public class Usuario {
     private String senha;
     private String caminhoFoto;
 
+
     public Usuario() {
     }
 
